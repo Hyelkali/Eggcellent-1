@@ -868,7 +868,7 @@ export default function Dashboard() {
               </button>
               <h1 className="text-2xl font-bold flex items-center">
                 <Egg className="mr-2" />
-                Eggcellent
+                Blatex Poultry Farm
               </h1>
             </div>
             <div className="flex items-center space-x-4">
@@ -921,7 +921,7 @@ export default function Dashboard() {
 
         <footer className="bg-amber-800 text-white p-4">
           <div className="container mx-auto text-center">
-            <p>&copy; 2024 Eggcellent. All rights reserved.</p>
+            <p>&copy; 2024 Blatex Poultry Farm. All rights reserved.</p>
           </div>
         </footer>
       </div>

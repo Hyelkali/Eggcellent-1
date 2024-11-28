@@ -67,7 +67,7 @@ export default function Home() {
   }, [])
 
   const sections = [
-    { id: 'hero', title: 'Welcome to EggCellent' },
+    { id: 'hero', title: 'Welcome to Blatex Poultry Farm' },
     { id: 'features', title: 'Key Features' },
     { id: 'statistics', title: 'Farm Statistics' },
     { id: 'management', title: 'Management Tools' },
@@ -85,7 +85,7 @@ export default function Home() {
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <Egg className="h-8 w-8 text-amber-500" />
-              <span className="ml-2 text-xl font-bold text-gray-800">EggCellent</span>
+              <span className="ml-2 text-xl font-bold text-gray-800">Blatex Poultry Farm</span>
             </div>
             <div className="hidden md:flex space-x-4">
               {sections.map((section, index) => (
@@ -147,7 +147,7 @@ export default function Home() {
               transition={{ duration: 1 }}
               className="text-5xl md:text-7xl font-bold mb-4"
             >
-              EggCellent Poultry Management
+              Blatex Poultry Farm Poultry Management
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 50 }}
@@ -340,19 +340,19 @@ export default function Home() {
                   name: 'John Doe',
                   role: 'Poultry Farmer',
                   image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3',
-                  quote: 'EggCellent has transformed the way I manage my farm. The insights provided are invaluable.',
+                  quote: 'Blatex Poultry Farm has transformed the way I manage my farm. The insights provided are invaluable.',
                 },
                 {
                   name: 'Jane Smith',
                   role: 'Farm Manager',
                   image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3',
-                  quote: 'The ease of use and comprehensive features make EggCellent a must-have for any poultry farm.',
+                  quote: 'The ease of use and comprehensive features make Blatex Poultry Farm a must-have for any poultry farm.',
                 },
                 {
                   name: 'Mike Johnson',
                   role: 'Agricultural Consultant',
                   image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3',
-                  quote: 'I recommend EggCellent to all my clients. It\'s a game-changer in poultry management.',
+                  quote: 'I recommend Blatex Poultry Farm to all my clients. It\'s a game-changer in poultry management.',
                 },
               ].map((testimonial, index) => (
                 <motion.div
@@ -389,24 +389,24 @@ export default function Home() {
             <div className="max-w-3xl mx-auto">
               {[
                 {
-                  question: 'How does EggCellent improve egg production?',
+                  question: 'How does Blatex Poultry Farm improve egg production?',
                   answer:
-                    'EggCellent provides real-time monitoring and analytics of your flock, allowing you to optimize feeding, environmental conditions, and health management for maximum egg production.',
+                    'Blatex Poultry Farm provides real-time monitoring and analytics of your flock, allowing you to optimize feeding, environmental conditions, and health management for maximum egg production.',
                 },
                 {
-                  question: 'Is EggCellent suitable for small-scale farms?',
+                  question: 'Is Blatex Poultry Farm suitable for small-scale farms?',
                   answer:
-                    'EggCellent is designed to scale with your farm, whether you have a small backyard operation or a large commercial farm.',
+                    'Blatex Poultry Farm is designed to scale with your farm, whether you have a small backyard operation or a large commercial farm.',
                 },
                 {
-                  question: 'How secure is the data collected by EggCellent?',
+                  question: 'How secure is the data collected by Blatex Poultry Farm?',
                   answer:
                     'We take data security seriously. All data is encrypted and stored securely in the cloud, with strict access controls and regular security audits.',
                 },
                 {
-                  question: 'Can EggCellent integrate with other farm management tools?',
+                  question: 'Can Blatex Poultry Farm integrate with other farm management tools?',
                   answer:
-                    'Yes, EggCellent offers API integrations with various farm management tools and accounting software to provide a seamless experience.',
+                    'Yes, Blatex Poultry Farm offers API integrations with various farm management tools and accounting software to provide a seamless experience.',
                 },
               ].map((faq, index) => (
                 <motion.div
@@ -507,7 +507,7 @@ export default function Home() {
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-2xl font-bold mb-4">EggCellent</h3>
+              <h3 className="text-2xl font-bold mb-4">Blatex Poultry Farm</h3>
               <p className="mb-4">Revolutionizing poultry management with cutting-edge technology and sustainable practices.</p>
               <div className="flex space-x-4">
                 <a href="https://web.facebook.com/?_rdc=1&_rdr" className="hover:text-amber-400"><Facebook size={24} /></a>
@@ -536,14 +536,14 @@ export default function Home() {
             <div>
               <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
               <ul className="space-y-2">
-                <li className="flex items-center"><Mail size={18} className="mr-2" /> info@eggcellent.com</li>
+                <li className="flex items-center"><Mail size={18} className="mr-2" /> info@Blatex Poultry Farm.com</li>
                 <li className="flex items-center"><Phone size={18} className="mr-2" /> +234 816 896 6141</li>
                 <li className="flex items-center"><MapPin size={18} className="mr-2" /> 287 Poultry Lane, Port Harcourt, NG </li>
               </ul>
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-gray-700 text-center">
-            <p>&copy; 2024 EggCellent. All rights reserved.</p>
+            <p>&copy; 2024 Blatex Poultry Farm. All rights reserved.</p>
           </div>
         </div>
       </footer>
