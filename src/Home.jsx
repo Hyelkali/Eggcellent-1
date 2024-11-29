@@ -538,7 +538,7 @@ export default function Home() {
               <ul className="space-y-2">
                 <li className="flex items-center"><Mail size={18} className="mr-2" /> info@eggcellent.com</li>
                 <li className="flex items-center"><Phone size={18} className="mr-2" /> +234 816 896 6141</li>
-                <li className="flex items-center"><MapPin size={18} className="mr-2" /> 287 Poultry Lane, Port Harcourt, NG </li>
+                <li className="flex items-center"><MapPin size={18} className="mr-2" /> Igwuruta Road, Port Harcourt, NG </li>
               </ul>
             </div>
           </div>
